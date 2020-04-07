@@ -35,7 +35,7 @@ function setupModes(){
 	        modes[1].classList.remove("selected");
 			this.classList.add("selected");
 
-			this.textContent === "Easy" ? numSquares = 3 : numSquares = 6;
+			this.textContent === "Easy" ? numSquares = 4 : numSquares = 6;
 
 			resetgame();
 		});
